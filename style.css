@@ -1,0 +1,71 @@
+*body{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box
+}
+@font-face
+{
+font-family: lato_regular;
+src: url("lato_regular.ttf");
+}
+@font-face
+{
+    font-family: lato_bold;
+    src: url("lato_bold.ttf");
+}
+table{
+    background-color: none;
+    margin: 5px;
+}
+tbody{
+    font-family: lato_bold;
+}
+h3{
+    text-align: center;
+    background-color: green;
+    color:white;
+    width: 400px;
+    height: 35px;
+    padding: 13px;
+    font-family: lato_bold;
+    font-size: 18px;
+}
+.textbox{
+    background-color: white;
+    border: 3px solid green;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 6px;
+}
+.textbox:hover{
+    border: 3px solid green;
+}
+.btn{
+    background-color:green;
+    color: white;
+    width: 215px;
+    height: 30px;
+    border: none;
+    font-family: lato_regular;
+}
+.btn:hover{
+    background-color: rgb(48, 170, 48);
+    color: rgb(255, 255, 255);
+}
+.textcolor{
+    color: black;
+    font-family: lato_bold;
+}
+.textcolor:hover{
+    color: blue;
+}
+.size{
+    font-family: lato_bold;
+    letter-spacing: 1.2px;
+    word-spacing: 1.3px;
+}
+.font{
+    font-family: lato_bold;
+}

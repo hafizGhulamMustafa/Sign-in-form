@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up form with CSS</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form >
+      <table width="400px">
+        <caption>
+          <h3>Sign Up</h3>
+        </caption>
+        <tbody>
+          <tr>
+            <td><lable>First Name</lable></td>
+            <td>
+              <input
+                class="textbox"
+                type="text"
+                placeholder="Enter First Name"
+                autofocus
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><lable>Last Name</lable></td>
+            <td>
+              <input
+                class="textbox"
+                type="text"
+                placeholder="Enter Last Name"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><lable>Gender</lable></td>
+            <td>
+              <input type="radio" id="male" name="RdoGender" />
+              <label class="font" for="male">Male</label>
+              <input type="radio" id="female" name="RdoGender" />
+              <label class="font" for="female">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td><lable>Email</lable></td>
+            <td>
+              <input class="textbox" type="text" placeholder="Enter Email" />
+            </td>
+          </tr>
+          <tr>
+            <td><lable>Contact</lable></td>
+            <td>
+              <input
+                class="textbox"
+                type="number"
+                placeholder="Enter Contact Number"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><lable>Password</lable></td>
+            <td>
+              <input
+                class="textbox"
+                type="password"
+                placeholder="Enter Password"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="checkbox" id="terms" />
+              <label class="size" for="terms"
+                >I accept terms and conditions
+                <span class="textcolor"> T & C </span></label
+              >
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center">
+              <input class="btn" type="submit" value="Sign Up" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
